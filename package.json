@@ -5,12 +5,14 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@sparticuz/chromium": "^131.0.1",
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "node-fetch": "^2.7.0",
     "puppeteer": "^23.9.0",
+    "puppeteer-core": "^23.9.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
