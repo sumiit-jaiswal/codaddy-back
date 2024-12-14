@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Health check route
 app.get('/', (req, res) => {
-  res.json({ message: 'Codaddy backend is running...' });
+  res.json({ message: 'Codaddy backend is running.....' });
 });
 
 // Problem scraping route
